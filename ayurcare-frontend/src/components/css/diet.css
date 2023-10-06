@@ -1,0 +1,130 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,lfr));
+    list-style:none;
+    margin-left: 5rem;
+    /* margin:0; */
+    padding:0;
+}
+
+.cards_item {
+    display: flex;
+    float:left;
+    padding:1rem;
+    width: 410px;
+}
+
+.card_image {
+    height:calc(13*1.2rem);
+    padding: 1.2rem 1.2rem 0;
+    position:relative;
+}
+
+.card_image:before,
+.card_image:after {
+    content: " ";
+    position: absolute;
+    width: 20px;
+    left:60%;
+    height:45px;
+    background: #e6e6e6b8;
+    transform: rotate(45deg);
+
+}
+
+   .card_image:after {
+      transform: rotate(-45deg);
+      top:auto;
+      bottom:-22px;
+      left:40%;
+   }
+
+   .card_image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+   }
+
+    .cards_item{
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25))
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-left: 30px;
+        background: repeating-linear-gradient( #0000 0 calc(1.2rem - 1px), #66afe1 0 1.2rem) right bottom / 100% 100%, linear-gradient(red 0 0) 30px 0/2px 100% #fff;
+        background-repeat: no-repeat;
+        line-height: 1.2rem;
+    }
+    .card_content {
+        padding: 1.2rem;
+    }
+
+    h2.card_title,p{
+        margin: 1.2 rem 0;
+    }
+
+    h2.card_title {
+        font-size:1.3rem;
+    }
+    .footer-div{
+        margin-top: 600px;
+    }
+
+   .diet-div {
+    border: 4px solid rgb(29, 41, 14);
+
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+/*     
+    padding: 0 4px; */
+}
+
+.column {
+    flex: 20%;
+    max-width: 25%;
+    padding: 5px 8px;
+}
+
+.column img {
+    margin-top : 8px;
+    vertical-align : middle;
+    width: 100%;
+}
+
+@media (max-width : 1200px) {
+    .column {
+        flex: 40%;
+        flex-wrap: wrap;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column{
+        flex: 50%;
+        max-width: 100%;
+    }
+    
+}
+
+
+

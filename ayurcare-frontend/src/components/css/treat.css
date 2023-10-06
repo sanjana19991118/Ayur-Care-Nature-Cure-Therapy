@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+/* .treatment_table{
+     
+     margin-left: 30px;
+     margin-right: 100px;
+     width : 80px; 
+     margin-top: -500px; 
+     font-size: 20px; 
+     font-weight : 5;
+} */
+.treat-img-one {
+   margin-left : 1050px; 
+   height : 150px;
+   margin-top: -10px;
+   border-radius: 50%;
+}
+
+.treat-img-two {
+   margin-left : 30px; 
+   margin-top: 100px;
+   height : 150px;
+   border-radius: 50%;
+
+}
+
+.treat-img-three{
+    margin: 0;
+    height: 200px;
+    width : 300px;
+}
+
+.treat-head-one {
+    margin-left: 510px;
+    font-family: 'Rubik', sans-serif;
+    color: #009933;
+}
+
+.treat-img-four {
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 220px;
+}
+
+.treat-img-five {
+     margin-left: 1150px;
+     margin-top: 50px;
+     height : 150px;
+     border-radius: 50%;
+}
+
+.bottom-button {
+     width: 500px;
+     margin-left: 300px;
+     margin-top: 400px;
+}
+
+.label-health {
+    font-size: 20px;
+    color:#111411;
+}
+
+.carousal-one{
+    width: 300px;
+    height: 20px;
+}
+
+.carousel-two{
+   width: 300px;
+   height: 20px;
+}
+
+.carousel-three{
+    width: 300px;
+    height: 20px;
+}
+
+.carousel-four {
+    width: 300px;
+    height: 20px;
+}
+
+.carousel-div{
+    width: 400px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

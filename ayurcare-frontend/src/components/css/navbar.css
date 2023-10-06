@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.list-page {
+    list-style-type: none;
+    position : relative;
+    text-align: center;
+    color: beige;
+}
+
+li {
+     display: inline-block;
+     padding : 20px 50px 20px 50px;
+     font-family: 'Rubik', sans-serif;
+     font-size: 20px;
+     text-shadow: 4px 4px  rgb(207, 240, 200);
+     color: #3d1802;
+}
+
+.canvas-logo {
+    padding: 2px;
+    width: 40px; 
+    border-radius : '5%';
+}
+
+.details-button{
+    position: absolute;
+    left: 30px;
+}
+
+.details-text {
+    /* position: relative;
+    margin-top: 10px; */
+    padding-top: 15px;
+    font-size: 15px;
+    border-radius: 40%;
+    color: #3d1802;
+}
+
+.details-canvas-title{
+    color: rgb(175, 76, 76);
+    font-size:medium;
+    text-decoration: underline;
+}

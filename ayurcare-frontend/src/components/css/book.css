@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:ital@1&display=swap');
+
+
+.book-card{
+      width: 400px;
+      height: 400px;
+}
+.book-head {
+      font-family: 'Roboto', sans-serif;
+      color: #3d1802;
+
+}
+
+.diet-button {
+    /* margin-left:100px;; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: white;
+     margin: 10%;
+     height: 40px;
+     width: 200px;
+}
+    
+
