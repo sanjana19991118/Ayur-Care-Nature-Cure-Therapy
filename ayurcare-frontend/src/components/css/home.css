@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@30..200,24&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.heading-div{
+    background-color: #00ff99;
+    height : 250px;
+    margin:0;
+    /* #00cc66 */   
+}
+.head-one{
+    float: left;
+}
+.head-two {
+   float:left;
+}
+.head-three {
+  float: right;
+}
+.heading{
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Nabla', sans-serif;
+    justify-content: center;
+}
+.tagline {
+    padding: 5px;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 30px;
+    font-family: 'Caprasimo', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    margin-left : 200px;
+    justify-content: center;
+    color: #f57906;
+}
+.image-one{
+   margin-left: 20px;
+   margin-top: 30px;
+   border-radius: 5%;
+}
+.image-two {
+    margin-top : 30px;
+    margin-right : 20px;
+    border-radius:5%;
+}
+
+.card-title {
+    padding: 5px;
+    font-size: 15px;
+}
+.card-one {
+     float: left;
+     margin-left : 600px;
+     font-size: 12px;
+     font-family : 'Caprasimo' , cursive;  
+}
+.card-two {
+     float: left;
+     margin-left : 600px;
+      font-size: 12px;
+     font-family : 'Caprasimo' , cursive;
+}
+.card-three {
+    float: right;
+    margin-right: 380px;
+     font-size: 12px;
+    font-family : 'Caprasimo' , cursive;
+}
+.card-four {
+     float: left;
+     margin-left: 1100px; 
+      font-size: 12px;
+     font-family : 'Caprasimo' , cursive; 
+}
+.card-five{
+     float: right;
+     margin-right: 430px;
+     font-size: 12px;
+     font-family : 'Caprasimo' , cursive;
+}
+
+/* .diseases{
+    /* background-image: url('../images/naturehome.jpg');
+    background-repeat: no-repeat;
+     /* width : "2000px";
+     height: "1000px"; */
+      
+/* }  */
+.disease-title{
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 500px;
+    font-size: 25px;
+    color: #f57906;
+}
+.flip-card {
+    background-color: transparent;
+    width : 190px;
+    height: 254px;
+    perspective: 1000px;
+    margin-left: 250px;
+    font-family : sans-serif;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    color:#3d1802;
+    font-family: 'Rubik', sans-serif ;
+    margin: 0;
+}
+
+.disease-one {
+    color:#33302f;
+}
+
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float:left;
+    font-size: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card-inner-two {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: -20px;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card-inner-three {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    margin-left: 650px;
+    margin-top: -20px;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner-two {
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner-three {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 0.5px solid #df5b5b;
+    border-radius: 0.3em;
+}
+
+
+.flip-card-front-two, .flip-card-back-two {
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 0.5px solid #df5b5b;
+    border-radius: 0.3em;
+}
+
+
+
+.flip-card-front-three, .flip-card-back-three {
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 0.5px solid #df5b5b;
+    border-radius: 0.3em;
+}
+
+.flip-card-front {
+    background: linear-gradient(160deg, #00ff99, #f7be03 30%, transparent);
+    color: #ffffff;
+}
+
+.flip-card-front-two {
+    background: linear-gradient(160deg, #00ff99, #f7be03 30%, transparent);
+    color: #ffffff;
+}
+
+.flip-card-front-three {
+    background: linear-gradient(160deg, #00ff99, #f7be03 30%, transparent);
+    color: #ffffff;
+}
+
+.flip-card-back {
+    background: linear-gradient(160deg, #00ff99, #f7be03 30%, transparent);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back-two {
+    background: linear-gradient(160deg, #00ff99, #f7be03 30%, transparent);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back-three {
+    background: linear-gradient(160deg, #00ff99, #f7be03 30%, transparent);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+.footer-details{
+  text-align: center;
+  margin-top: 80px;
+  padding: 3px;
+  background-color: rgb(31, 29, 29);
+  color: white;
+}
+
+.footer-head {
+       color : #0da168;
+       font-family: Rubik, sans-serif;
+} 
+
+.continue-button {
+    text-decoration : none;
+    margin-top : -50px;
+    font-size: 15px;
+    padding: 20px;
+}
